@@ -4,74 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Muhammad Taqi - Portfolio</title>
-    <style>
-      @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
-      *{
-        padding: 0px;
-        margin: 0px;
-      }
-
-      body{
-        background-color: #080808;
-      }
-      nav{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        background-color: #1B1B1B;
-        margin-inline: 85px;
-        padding-block: 24px;
-        padding-inline: 95px;
-        border-bottom-left-radius: 8px;
-        border-bottom-right-radius: 8px;
-      }
-      .links a{
-        font-family: IBM Plex Mono;
-        color: #9C9C9C;
-        text-decoration: none;
-        padding: 20px;
-      }
-      .icons img{
-        padding: 10px;
-      }
-      .intro{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-inline: 180px;
-        margin-block: 80px;
-        color: white;
-      }
-
-      #pfp{
-        height: 350px;
-        width: 350px;
-        border-radius: 300px;
-        margin-left: 78px;
-      }
-      .Name-Bio h1{
-        font-family: Raleway;
-        font-weight: bolder;
-        font-size: 44px;
-        margin-bottom: 10px;
-      }
-      .Name-Bio p{
-        font-family: IBM Plex Mono;
-        font-weight: normal;
-        font-size: 14px;
-        color: #9C9C9C;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
   </head>
   <body>
     <header>
         <nav>
             <div class="links">
                 <a href="">Home</a>
-                <a href="">Case Studies</a>
-                <a href="">Testimonials</a>
                 <a href="">Recent work</a>
+                <a href="">Testimonials</a>
                 <a href="">Get In Touch</a>
             </div>
             <div class="icons">
@@ -85,12 +27,113 @@
         <div class="intro">
             <div class="Name-Bio">
                 <h1>Muhammad Taqi</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea expedita, illo deleniti repudiandae maiores non laboriosam harum, cupiditate itaque fugit alias qui, consequatur voluptatum quibusdam. Pariatur molestiae doloribus voluptatibus fuga laboriosam voluptates voluptatem laudantium! Nobis, dolor ipsa nam esse earum vel rerum a distinctio animi iste nihil omnis quasi voluptas!</p>
+                <p>Software Engineer | Ui/Ux Designer | Front End Web Develiper | Mobile App Developer | React Native | Requirements Analyst | Software Designer and Architect</p>
+                <button>Let's get started <img src="/assets/images/Right-arrow.svg" alt=""></button>
             </div>
             <div class="pic">
                 <img src="/assets/images/Taqi.jpeg" alt="" id="pfp">
             </div>
         </div>
+        <div class="tools">
+            <h3>Worked with</h3>
+            <div class="toolbox">
+                <div class="tool">
+                    <img src="/assets/images/Figma.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/Html 5.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/CSS3.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/JavaScript.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/Node Js.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/React Native.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/Express Js.svg" alt="" style="color: white;">
+                </div>
+                <div class="tool">
+                    <img src="/assets/images/MongoDB.svg" alt="" style="color: white;">
+                </div>
+            </div>
+        </div>
+        <div class="recent-work">
+            <div class="rw-text">
+                <h3>Recent Work</h3>
+                <p>Solving user & business problems since last 15+ years. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="rw-cards">
+                <div class="rw-card">
+                    <img src="/assets/images/image 9.png" alt="">
+                    <h3>Work 1 Name Here</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dicta eveniet quasi quas, nemo eligendi.</p>
+                    <button>Know More <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.63335 4.37364L1.51379 0.259206C1.16776 -0.086402 0.605566 -0.086402 0.259528 0.259206C-0.0865095 0.604814 -0.0865095 1.16631 0.259528 1.51191L3.75196 5L0.259528 8.4881C-0.0865095 8.8337 -0.0865095 9.3952 0.259528 9.7408C0.432545 9.91361 0.65957 10 0.886652 10C1.11373 10 1.34078 9.9136 1.51378 9.7408L5.63333 5.62637C5.97937 5.28076 5.97937 4.71927 5.63333 4.37366L5.63335 4.37364Z" fill="white"/>
+                        </svg></button>
+                </div>
+                <div class="rw-card">
+                    <img src="/assets/images/image 8.png" alt="">
+                    <h3>Work 2 Name Here</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit at, cum necessitatibus hic harum ad!</p>
+                    <button>Know More <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.63335 4.37364L1.51379 0.259206C1.16776 -0.086402 0.605566 -0.086402 0.259528 0.259206C-0.0865095 0.604814 -0.0865095 1.16631 0.259528 1.51191L3.75196 5L0.259528 8.4881C-0.0865095 8.8337 -0.0865095 9.3952 0.259528 9.7408C0.432545 9.91361 0.65957 10 0.886652 10C1.11373 10 1.34078 9.9136 1.51378 9.7408L5.63333 5.62637C5.97937 5.28076 5.97937 4.71927 5.63333 4.37366L5.63335 4.37364Z" fill="white"/>
+                        </svg></button>
+                </div>
+
+            </div>
+        </div>
+        <div class="testimonials">
+            <div class="t-text">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div>
+            <div class="t-cards">
+                <div class="t-card">
+                    <p class="quote">“</p>
+                    <p class="msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="client-info">
+                        <img src="/assets/images/Taqi.jpeg" alt="">
+                        <h4>Name Here</h4>
+                    </div>
+                </div>
+                <div class="t-card">
+                    <p class="quote">“</p>
+                    <p class="msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="client-info">
+                        <img src="/assets/images/Taqi.jpeg" alt="">
+                        <h4>Name Here</h4>
+                    </div>
+                </div>
+                <div class="t-card">
+                    <p class="quote">“</p>
+                    <p class="msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="client-info">
+                        <img src="/assets/images/Taqi.jpeg" alt="">
+                        <h4>Name Here</h4>
+                    </div>
+                </div>
+                <div class="t-card">
+                    <p class="quote">“</p>
+                    <p class="msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                    <div class="client-info">
+                        <img src="/assets/images/Taqi.jpeg" alt="">
+                        <h4>Name Here</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="f-text">
+            <h3>Get In Touch</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto tempora eveniet odio enim, eius amet recusandae facilis voluptatum saepe temporibus?</p>
+        </div>
+    </footer>
   </body>
 </html>
